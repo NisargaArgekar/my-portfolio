@@ -24,7 +24,7 @@ function Projects() {
         />
         <ProjectCard
           src={freshBurger}
-          link="https://github.com/NisargaArgekar/Burger-hut-website"
+          link="https://burger-hut-website-silk.vercel.app"
           h3="Fresh Burger"
           p="Hamburger Restaurant"
         />

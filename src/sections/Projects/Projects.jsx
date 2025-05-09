@@ -18,7 +18,7 @@ function Projects() {
         />
         <ProjectCard
           src={dictionary}
-          link="https://github.com/NisargaArgekar/Diction-Snap"
+          link="https://diction-snap.vercel.app"
           h3="AI-Generated Word Searcher"
           p="Diction-Snap"
         />

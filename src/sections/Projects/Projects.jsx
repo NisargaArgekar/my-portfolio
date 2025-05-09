@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
 import foodwebsite from '../../assets/fresh-burger.png'
 import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import dictionary from  '../../assets/dictionary.png'
+import fooddelivery from '../../assets/fooddelivery.jpg'
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,22 +11,16 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={foodwebsite}
-          link="https://github.com/NisargaArgekar/BiteMeal"
+          src={fooddelivery}
+          link="https://bite-meal.vercel.app"
           h3="Bite Meal"
           p="Food Delivery Website"
         />
         <ProjectCard
-          src={hipsster}
+          src={dictionary}
           link="https://github.com/NisargaArgekar/Diction-Snap"
           h3="AI-Generated Word Searcher"
           p="Diction-Snap"
-        />
-        <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
         />
         <ProjectCard
           src={freshBurger}

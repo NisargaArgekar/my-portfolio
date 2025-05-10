@@ -52,7 +52,8 @@ function Hero() {
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
-        <p className={styles.description}>
+        {/* <p className={styles.description}> */}
+        <p className="text-center max-w-[800px] mx-auto px-4">
         Learning and building React web applications with a goal to deliver simple, efficient solutions for real-world business needs.
         </p>
         <a href= {CV} download>

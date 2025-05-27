@@ -2,7 +2,7 @@ import styles from './ProjectsStyles.module.css';
 import freshBurger from '../../assets/fresh-burger.png';
 import dictionary from  '../../assets/dictionary.png';
 import icon from '../../assets/icon.png';
-import fooddelivery from '../../assets/fooddelivery.jpg'
+import fooddelivery from '../../assets/fooddelivery.png'
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
